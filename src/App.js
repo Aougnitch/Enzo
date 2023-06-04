@@ -2,11 +2,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'typeface-roboto'; // Import the Roboto font
-import About from './components/About';
-import About2 from './components/About2';
+import About from './components/second-sec';
+import About2 from './components/third-sec';
 import MobileFriendlyNavbar from './components/Navbar';
 import FullViewportSection from './components/first-sect'
-import FullViewportSection2 from './components/second-sect'
+import FullViewportSection2 from './components/fourth-sec'
 import Typed from 'react-typed'
 import FloatingText from './components/floatingtext';
 

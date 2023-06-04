@@ -8,7 +8,7 @@ import Typed from 'react-typed'
 const About2 = () => {
     return (
 
-<Container id='about' fluid className="full-viewport-section">
+<Container id='' fluid className="full-viewport-section">
       <Row className="align-items-center h-100">
     
 

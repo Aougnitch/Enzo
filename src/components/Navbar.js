@@ -18,7 +18,7 @@ const MobileFriendlyNavbar = () => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link href="#about" className="nav-link">About</Nav.Link>
-          <Nav.Link href="#contact" className="nav-link">Contact</Nav.Link>
+          <Nav.Link href="https://www.instagram.com/enzo_grimes/" className="nav-link">Contact</Nav.Link>
           <Nav.Link href="https://whop.com/escape-with-enzo/?planId=plan_fef7GA5wif7bR" className="nav-link">Pricing</Nav.Link>
           <Nav.Link href="https://discord.gg/gF6CewTxa7" className="nav-link">Server</Nav.Link>
         </Nav>

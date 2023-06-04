@@ -200,7 +200,7 @@ text-shadow:  -6px 6px 12px #b7b6b4,
 }
 
 .about-para {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .text-float-up {
@@ -213,6 +213,25 @@ text-shadow:  -6px 6px 12px #b7b6b4,
   opacity: 1;
   transform: translateY(0);
 }
+
+
+/* Define the animation */
+@keyframes floatUp {
+  0% {
+    transform: translateY(50px); /* Initial position of the text */
+    opacity: 0; /* Initial opacity */
+  }
+  100% {
+    transform: translateY(0); /* Final position of the text */
+    opacity: 1; /* Final opacity */
+  }
+}
+
+/* Apply the animation to the element */
+.float-up {
+  animation: floatUp 1s ease-out forwards; /* 1s duration with ease-out timing function */
+}
+
 
 
 
@@ -390,5 +409,6 @@ text-shadow:  -6px 6px 12px #b7b6b4,
 .about-para {
   font-size: 1rem;
 }
+
 
 }

@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'react-typed'
 
+
+
 const FloatingText = () => {
   const textRef = useRef(null);
 
@@ -31,7 +33,7 @@ const FloatingText = () => {
   }, []);
 
   return (
-    <p  ref={textRef} className='animated-typing about-para text-float-up'>
+    <p  ref={textRef} className='animated-typing about-para text-float-up '>
           <Typed
           strings={[
 
