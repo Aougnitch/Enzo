@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'typeface-roboto'; // Import the Roboto font
+import About from './components/About';
+import About2 from './components/About2';
+import MobileFriendlyNavbar from './components/Navbar';
+import FullViewportSection from './components/first-sect'
+import FullViewportSection2 from './components/second-sect'
+import Typed from 'react-typed'
+import FloatingText from './components/floatingtext';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+    < MobileFriendlyNavbar/>
+    <FullViewportSection/>
+    <About/>
+    <About2/>
+    
+
+    <FullViewportSection2/>
+    
+
     </div>
   );
 }
