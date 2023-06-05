@@ -7,8 +7,7 @@ import About2 from './components/third-sec';
 import MobileFriendlyNavbar from './components/Navbar';
 import FullViewportSection from './components/first-sect'
 import FullViewportSection2 from './components/fourth-sec'
-import Typed from 'react-typed'
-import FloatingText from './components/floatingtext';
+import FullViewportSection3 from './components/fifth-sec';
 
 
 function App() {
@@ -19,9 +18,8 @@ function App() {
     <FullViewportSection/>
     <About/>
     <About2/>
-    
-
     <FullViewportSection2/>
+    <FullViewportSection3/>
     
 
     </div>
