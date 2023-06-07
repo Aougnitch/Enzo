@@ -273,6 +273,49 @@ text-shadow:  -6px 6px 12px #b7b6b4,
 }
 
 
+.Accordion-size {
+width: 100%;
+}
+
+
+
+/* STOCK TICKER */
+
+
+.stocktick {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 80px 80px 80px 80px;
+}
+
+.serv ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.serv ul li {
+  list-style: none;
+  flex: 0 0 33.33%;
+}
+
+.stock-header {
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+
+/* FOOTER */
+
+.footer-space {
+  height: 20vh;
+  background-color: #FF9900;
+}
+
+
 @media (max-width: 1024px) {
 
   .description-title {
@@ -298,31 +341,6 @@ text-shadow:  -6px 6px 12px #b7b6b4,
 }
 
 
-/* STOCK TICKER */
-
-
-.stocktick {
-  font-family: sans-serif;
-  text-align: center;
-}
-
-.serv ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  align-items: stretch;
-  height: 100vh;
-}
-
-.serv ul li {
-  list-style: none;
-  flex: 0 0 33.33%;
-}
-
-
-
-
-
 @media (max-width: 768px) {
 
   .description-title {
@@ -338,6 +356,11 @@ text-shadow:  -6px 6px 12px #b7b6b4,
     padding: 0 5px 0 5px;
   }
   
+  .stocktick {
+    margin: 0px;
+  }
+
+  
    
   
 }
@@ -350,7 +373,9 @@ text-shadow:  -6px 6px 12px #b7b6b4,
     padding: 0 5px 0 5px;
   }
 
-
+  .stocktick {
+    margin: 0px;
+  }
   
 }
 
@@ -372,6 +397,10 @@ text-shadow:  -6px 6px 12px #b7b6b4,
 
 .about-para {
   font-size: 1rem;
+}
+
+.stocktick {
+  margin: 0px;
 }
 
 

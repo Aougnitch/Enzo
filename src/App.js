@@ -11,6 +11,7 @@ import Beginnings from './components/fifth-sec';
 import Stocktick from './components/stock-tick';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
     <Plans/>
     <Beginnings/>
     <Stocktick/>
+    
     
 
     </div>

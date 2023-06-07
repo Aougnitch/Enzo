@@ -33,46 +33,44 @@ export default function stocktick() {
     <Container fluid className="full-viewport-section">
     <Row className="h-100 fourthsec-col">
 
-    <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center">
+    <Col xs={12} md={12} lg={12} className="d-flex align-items-center justify-content-center">
     
-     <h2>  Market watchers </h2>
+     <h2 className="stock-header text-3D">  Market watchers </h2>
 
     </Col>
 
 
-    <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center">
+    <Col xs={12} md={12} lg={12} className="d-flex align-items-center justify-content-center">
 
     <div className="stocktick">
       <div className="serv">
         <ul>
           <li>
-            <TradingViewWidget symbol="NASDAQ:AAPL" {...configChart} 
-            
-            />
+            <TradingViewWidget symbol="NASDAQ:AAPL" {...configChart} />
           </li>
           <li>
-            <TradingViewWidget symbol="SWB:DS3" {...configChart} />
+            <TradingViewWidget symbol="NASDAQ:NFLX" {...configChart} />
           </li>
           <li>
             <TradingViewWidget symbol="XETR:TL0" {...configChart} />
           </li>
           <li>
-            <TradingViewWidget symbol="SWB:N3IA" {...configChart} />
+            <TradingViewWidget symbol="NASDAQ:SP" {...configChart} />
           </li>
           <li>
-            <TradingViewWidget symbol="SWB:1WF" {...configChart} />
+            <TradingViewWidget symbol="NYSE:XOM" {...configChart} />
           </li>
           <li>
-            <TradingViewWidget symbol="SWB:5ZM" {...configChart} />
+            <TradingViewWidget symbol="BTC" {...configChart} />
           </li>
           <li>
-            <TradingViewWidget symbol="SE" {...configChart} />
+            <TradingViewWidget symbol="ETH" {...configChart} />
           </li>
           <li>
-            <TradingViewWidget symbol="SHOP" {...configChart} />
+            <TradingViewWidget symbol="SOL" {...configChart} />
           </li>
           <li>
-            <TradingViewWidget symbol="SGMS" {...configChart} />
+            <TradingViewWidget symbol="ADA" {...configChart} />
           </li>
         </ul>
       </div>
