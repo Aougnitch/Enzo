@@ -5,9 +5,10 @@ import 'typeface-roboto'; // Import the Roboto font
 import About from './components/second-sec';
 import About2 from './components/third-sec';
 import MobileFriendlyNavbar from './components/Navbar';
-import FullViewportSection from './components/first-sect'
-import FullViewportSection2 from './components/fourth-sec'
-import FullViewportSection3 from './components/fifth-sec';
+import Firstsec from './components/first-sect'
+import Plans from './components/fourth-sec'
+import Beginnings from './components/fifth-sec';
+import Stocktick from './components/stock-tick';
 
 
 function App() {
@@ -15,11 +16,12 @@ function App() {
     <div className="App">
       
     < MobileFriendlyNavbar/>
-    <FullViewportSection/>
+    <Firstsec/>
     <About/>
     <About2/>
-    <FullViewportSection2/>
-    <FullViewportSection3/>
+    <Plans/>
+    <Beginnings/>
+    <Stocktick/>
     
 
     </div>

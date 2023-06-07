@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 
 
-const FullViewportSection = () => {
+const Firstsec = () => {
   return (
     <Container fluid className="full-viewport-section">
       <Row className="align-items-center h-100">
@@ -20,7 +20,7 @@ const FullViewportSection = () => {
   );
 };
 
-export default FullViewportSection;
+export default Firstsec;
 
 
 

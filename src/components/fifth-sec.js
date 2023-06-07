@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import  { useEffect, useRef } from 'react';
 
 
-const FullViewportSection3 = () => {
+const Beginnings = () => {
 
 
   const textRef = useRef(null);
@@ -71,7 +71,7 @@ const FullViewportSection3 = () => {
 
            
  
-export default FullViewportSection3;
+export default Beginnings;
 
 
 

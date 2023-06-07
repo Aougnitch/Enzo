@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import  { useEffect, useRef } from 'react';
 
 
-const FullViewportSection2 = () => {
+const Plans = () => {
 
 
   const textRef = useRef(null);
@@ -70,7 +70,7 @@ const FullViewportSection2 = () => {
 
            
  
-export default FullViewportSection2;
+export default Plans;
 
 
 
