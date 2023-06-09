@@ -46,9 +46,9 @@ const Plans = () => {
         <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center">
           
            
-<Accordion ref={textRef} className='Accordion-size text-float-up'>
+<Accordion ref={textRef} className='Accordion-size text-float-up' defaultActiveKey="0"> 
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header className='Accordion-Head'>Goal 1</Accordion.Header>
         <Accordion.Body>
           
    <p className='about-para text-3D'>
@@ -63,14 +63,19 @@ const Plans = () => {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header className='Accordion-Head'>Goal 2</Accordion.Header>
         <Accordion.Body>
+
+        <p className='about-para text-3D'>
          
               Do you really think there are no such opportunities with the <highlight>upcoming recession?</highlight> Of course there are. 
               By no means am I saying that it is 100% guaranteed if you invest into a promising asset that it will <highlight>256x</highlight>, but even if it does a 10x you will have 10 times the amount of money you would if you did not invest. 
               This is not a 'get rich quick scheme', you will have to put in the hours to study and do your own research. Life is fair because it rewards those who put in the effort. 
               <highlight>Join Escape with Enzo</highlight> and gain <highlight>life-changing</highlight> knowledge on how to become <highlight>financially free</highlight>. You will have enough money to support yourselves and your loved ones for the rest of your life. 
               All you have to do is take that step forward and <highlight>join the discord</highlight>.
+
+              </p>
+
 
         </Accordion.Body>
       </Accordion.Item>

@@ -39,8 +39,8 @@ const About = () => {
 
   return (
     <Container id='about' fluid className="full-viewport-section">
-      <Row className="align-items-center h-100">
-        <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center ">
+      <Row className="h-100 align-items-center">
+        <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center">
         
             <h2 className='about-header text-3D'> About <highlight>Enzo</highlight></h2>
           

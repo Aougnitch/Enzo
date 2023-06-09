@@ -95,7 +95,7 @@ background: linear-gradient(14deg, rgba(255,153,0,1) 26%, rgba(255,245,231,1) 96
 
 .p1-title {
   font-size: 3.5rem;
-  padding-bottom: 10px;
+  padding-top: 30px;
   border-radius: 36px;
   color: #FF9900;
 text-shadow:  -6px 6px 12px #b7b6b4,
@@ -198,10 +198,14 @@ text-shadow:  -6px 6px 12px #b7b6b4,
 
 /* SECTION 2 CSS */ 
 
+#about {
+ padding-top: 120px;
+ 
+}
 
 .about-assets {
-  max-width: 700px;
-  max-height: 800px;
+  max-width: 900px;
+  max-height: 1000px;
 }
 
 .about-assets-align {
@@ -252,10 +256,6 @@ text-shadow:  -6px 6px 12px #b7b6b4,
 
 /* SECTION 3 CSS */   
 
-
-.full-height {
-  height: 90vh;
-}
 
 
 
@@ -333,10 +333,7 @@ width: 100%;
   
   
 
-    .full-height {
-      height: 80vh;
-      
-    }
+    
   
 }
 

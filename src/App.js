@@ -18,11 +18,12 @@ function App() {
       
     < MobileFriendlyNavbar/>
     <Firstsec/>
+    <Stocktick/>
     <About/>
     <About2/>
     <Plans/>
     <Beginnings/>
-    <Stocktick/>
+    
     
     
 

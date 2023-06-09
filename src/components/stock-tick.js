@@ -4,7 +4,7 @@ import TradingViewWidget, {
   IntervalTypes
 } from "react-tradingview-widget";
 import { Container, Row, Col } from 'react-bootstrap';
-import  { useEffect, useRef } from 'react';
+
 
 
 const configChart = {
@@ -14,7 +14,7 @@ const configChart = {
   locale: "en",
   timezone: "Europe/Berlin",
   hide_top_toolbar: true,
-  style: BarStyles.LINE,
+  style: BarStyles.candle,
   interval: 15
 };
 
@@ -31,7 +31,7 @@ export default function stocktick() {
 
 
     <Container fluid className="full-viewport-section">
-    <Row className="h-100 fourthsec-col">
+    <Row className="h-100 align-items-center fourthsec-col">
 
     <Col xs={12} md={12} lg={12} className="d-flex align-items-center justify-content-center">
     

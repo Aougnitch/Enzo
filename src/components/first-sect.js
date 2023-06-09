@@ -8,10 +8,12 @@ const Firstsec = () => {
       <Row className="align-items-center h-100">
         <Col>
         <div className='indent'>
-            <h1 className="text-center p1-title text">Escape with Enzo</h1>
-          <div className="text-center">
+
+        <div className="text-center">
            <a href="https://discord.gg/gF6CewTxa7"> <Button className="btn-width p1-btn remove-bg-color"> Get started </Button> </a>
           </div>
+            <h1 className="text-center p1-title text">Escape with Enzo</h1>
+          
         </div>
           
         </Col>
